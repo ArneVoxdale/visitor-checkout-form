@@ -17,7 +17,7 @@
     </style>
     <script>
       async function loadNames() {
-        const res = await fetch("https://script.google.com/a/macros/voxdale.be/s/AKfycbyG6n3dZ0Ly6Gu0TjykyL7casagnqcLj49yDw04W8mEQ5Eud-R4w2WW0bkZiVU1UJOv8A/exec");
+        const res = await fetch("https://script.google.com/macros/s/AKfycbyG6n3dZ0Ly6Gu0TjykyL7casagnqcLj49yDw04W8mEQ5Eud-R4w2WW0bkZiVU1UJOv8A/exec");
         const names = await res.json();
         const input = document.getElementById("nameInput");
         const datalist = document.getElementById("nameList");
